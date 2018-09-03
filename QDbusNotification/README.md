@@ -15,12 +15,13 @@ ISSUES FACED
 
 Error:
 >qdbusxml2cpp: Got unknown type `a{sv}' processing 'desktop_notifications.xml'
->You should add <annotation name="org.qtproject.QtDBus.QtTypeName.In6" value="<type>"/> to the XML description
+>You should add ```<annotation name="org.qtproject.QtDBus.QtTypeName.In6" value="<type>"/> ```to the XML description
 
-Solution: 
-><annotation name="org.qtproject.QtDBus.QtTypeName.In6" value="QVariantMap"/>
+Solution:
+
+>```<annotation name="org.qtproject.QtDBus.QtTypeName.In6" value="QVariantMap"/>``` added to the xml file as dbusxml2cpp required this
 
 External Links
 ==============
-[Custom Data Types In DBus Qt](https://techbase.kde.org/Development/Tutorials/D-Bus/CustomTypes)
+[Custom Data Types In Qt DBus](https://techbase.kde.org/Development/Tutorials/D-Bus/CustomTypes)
 
