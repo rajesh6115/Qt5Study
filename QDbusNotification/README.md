@@ -21,6 +21,8 @@ Solution:
 
 >```<annotation name="org.qtproject.QtDBus.QtTypeName.In6" value="QVariantMap"/>``` added to the xml file as dbusxml2cpp required this
 
+- I have Always Confusion Regarding Adaptor and Proxy Stub Code. Any way I have to use proxy as I will act as client.
+
 External Links
 ==============
 [Custom Data Types In Qt DBus](https://techbase.kde.org/Development/Tutorials/D-Bus/CustomTypes)
